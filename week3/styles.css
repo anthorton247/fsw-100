@@ -1,0 +1,30 @@
+.mainHeadline{
+    color:darkgreen;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: center;
+}
+
+.subHeadline{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: center;
+}
+
+p {
+    line-height: 25px;
+}
+
+img {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.upperCase {
+    text-transform: capitalize;
+}
