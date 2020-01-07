@@ -1,0 +1,77 @@
+nav {
+    position: fixed;
+    background-color: black;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    text-align: center;
+    margin: 40px;
+}
+
+img {
+    float: right;
+    height: 50px;
+    margin: 10px;
+}
+
+.F5C6D6 {
+    background-color: #F5C6D6;
+}
+
+.pinkBox{
+    width: 94%;
+    height: 50px;
+    background-color: #F5C6D6;
+    box-sizing: border-box;
+    border: 2% solid white;
+    font-size: 0px;
+    display: inline-block;
+}
+
+ .magBox {
+     width: 23%;
+     height: 50px;
+     background-color: #EE2E84;
+     border: 2% solid white;
+     box-sizing: border-box;
+     font-size: 0px;
+    display: inline-block;
+ }
+
+.lightBlue {
+    width: 46.75%;
+     height: 50px;
+     background-color:#85CFD8;
+     border: 2% solid white;
+     box-sizing: border-box;
+     font-size: 0px;
+     display: inline-block;
+}
+
+.green {
+    width: 71%;
+    height: 50px;
+    background-color:#8DC63F;
+    border: 2% solid white;
+    box-sizing: border-box;
+    font-size: 0px;
+    display: inline-block;
+}
+
+.orange {
+    width: 22.5%;
+     height: 50px;
+     background-color:#E76E34;
+     border: 2% solid white;
+     box-sizing: border-box;
+     font-size: 0px;
+     display: inline-block;
+}
