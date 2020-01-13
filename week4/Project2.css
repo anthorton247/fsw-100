@@ -1,0 +1,90 @@
+nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1vw;
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+    padding: 2px;
+    
+}
+
+.border {
+    border: groove 6px white;
+    width:100%;
+}
+
+img {
+    max-width: 15%;
+    display: inline-block;
+}
+
+.aStyling{
+    color: white;
+}
+
+a:hover {
+    font-style: italic;
+}
+
+header{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    padding: 5px;
+    transform: translateX(-50%);
+    font-size: 25px;
+    font-size: 2.25vw;
+    color:white;
+}
+
+body {
+    font-family: Oswald;
+    background-image: url(./Blood\ Moon\ BG2.png);
+}
+
+main {
+    text-align: center;
+    margin: 40px;
+    font-size: 1.75vw;
+    position: relative;
+    top: 10PX;
+    margin: 3px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 5px;
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
+
+ul{
+    text-align: left;
+    display: inline-block;
+    font-size: 2.25vw;
+    font-weight: bold;
+
+    margin: 2px;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 4vw;
+    border-spacing: 10px;
+}
+
+table{
+    padding: 5px;
+}
+
+
+strong {
+    font-style: italic;
+}
