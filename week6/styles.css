@@ -1,0 +1,100 @@
+.gridContainer {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 200px 200px 200px;
+}
+
+.box1 {
+    grid-column: 1 / span 1;
+    background-color: black;
+}
+
+.box1:hover {
+    transition: all 2s .5s;
+    background-color: grey;
+    border: 5px black solid;
+}
+
+.box2{
+    grid-column: 2 / span 1;
+    background-color: black;
+}
+
+.box2:hover {
+    transition: all 4s ease-out;
+    border-radius: 50%;
+    box-shadow: 10px 5px red;
+}
+
+
+.box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / span 1;
+    background-color: black;
+    text-align: center;
+}
+
+.box3:hover{
+    transition: all 4s ease-in-out 1s;
+    background-color: purple;
+    font-size: x-large;
+    font-weight: bolder;
+    opacity: .7;
+    margin: 15px;
+}
+
+
+
+.box4 {
+    grid-column: 2 / span 1;
+    background-color: black;
+}
+
+.box4:hover {
+    transition: all 3s ease-out .4s;
+    border: white 100px double;
+    border-radius: 50px 25px;
+}
+
+
+.box5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / span 1;
+    background-color: black;
+    
+}
+
+.box5:hover{
+    transition: all 1s;
+    color: goldenrod;
+    border-radius: 50%;
+    background-color: white;
+    margin: 100px;
+    font-size: 80px;
+    transform: rotate(360deg);
+}
+
+.box6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2 / span 1;
+    background-image: url(./Krombop.jpg); 
+    background-size: contain;
+    color: gold;
+    font-size: 0%;
+
+}
+
+.box6:hover{
+    transition: all 3s ease-in;
+    border: 10px gold solid;
+    opacity: .5;
+    font-size: 50px;
+    color: gold;
+}
