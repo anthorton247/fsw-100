@@ -119,7 +119,7 @@ div.box3 > main > h3 {
     height: auto;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-device-width: 640px) {
     .gridContainer {
         display: grid;
         grid-gap: 0px;
@@ -182,7 +182,7 @@ div.box3 > main > h3 {
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-device-width: 768px) {
     .gridContainer {
         display: grid;
         grid-gap: 5px;
@@ -244,7 +244,7 @@ div.box3 > main > h3 {
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024gitpx) {
     .gridContainer {
         display: grid;
         grid-gap: 10px;
