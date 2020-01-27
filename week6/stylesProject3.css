@@ -137,6 +137,7 @@ div.box3 > main > h3 {
     
     .box2{
         text-align: center;
+        padding-bottom: 5px;
         grid-column: 1 / span 6;
         grid-row: 4 / 5;
         background-color: black;
