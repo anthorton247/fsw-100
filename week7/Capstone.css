@@ -1,0 +1,691 @@
+
+@media only screen and (max-device-width: 640px) {
+    .gridContainer {
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto;
+        align-content: center;
+    }
+    
+    body{
+        background-color: black;
+    }
+
+    .box1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5px;
+        align-items: center;
+        grid-column: 1 / span 6;
+        text-align: center;
+        color: white;
+        height: auto;
+        font-size: 50px;
+        font-family: 'Black And White Picture', sans-serif;
+        letter-spacing: 5px;
+        text-shadow: 2px 2px red ;
+    }
+
+    .sidenav {
+        height: 100%; 
+        width: 0; 
+        position: fixed; 
+        z-index: 1; 
+        top: 0; 
+        left: 0;
+        background-color: #111; 
+        overflow-x: hidden; 
+        padding-top: 60px;
+        transition: 0.5s; 
+      }
+      
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+      }
+    
+    .sidenav a:hover {
+        text-decoration: underline;
+        font-style: italic;
+      }
+    
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+    
+    .box2{    
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        height: auto;
+        padding: 1px;
+        position: absolute;
+        font-family: 'Black And White Picture', sans-serif;
+        font-weight: bolder;
+        letter-spacing: 1px;text-shadow: 2px 2px red;
+        letter-spacing: 3px;
+        font-size: 25px;
+    }
+     div.box2 > span:hover {
+         transition: 1s ease-out;
+         font-style: italic;
+         font-size: 30px;
+    
+     }
+    
+     .box3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border: 5px white ridge;
+        padding-left: 10px;
+        padding-right: 5px;
+        grid-column: 2 / span 4;
+        color: white;
+        height: auto;
+    }
+    
+    main > h1 {
+        font-family: 'Black And White Picture', sans-serif;
+        letter-spacing: 5px;
+        text-shadow: 2px 2px red;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    main > div > p {
+        text-align: center;
+        color: red;
+        text-shadow: 0 0 3px white;
+        font-family: 'Black And White Picture', sans-serif;
+        letter-spacing: 5px;
+        font-size: 50px;
+    }
+    
+    main > div > h1 {
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px red;
+        font-family: 'Black And White Picture', sans-serif;
+        letter-spacing: 5px;
+        font-size: 50px;
+    }
+
+    main > div > h3 {
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px red;
+        font-family: 'Black And White Picture', sans-serif;
+        letter-spacing: 5px;
+        font-size: 50px;
+    }
+
+    main > span > p {
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: red;
+        text-shadow: 0 0 3px white;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    main > span > a > h1 {
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px red;
+        font-family: 'Black And White Picture', sans-serif;
+        letter-spacing: 5px;
+        font-size: 50px;
+    }
+
+    main > span > a {
+        text-decoration: none;
+    }
+
+    main > span > a > h1:hover {
+        text-decoration: underline;
+    }
+
+    .box4 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            border: 5px white ridge;
+            padding-left: 10px;
+            padding-right: 5px;
+            grid-column: 2 / span 4;
+            color: white;
+            height: auto;
+    }
+    
+    table, th, td {
+        color: white;
+        text-shadow: 2px 2px red;
+        font-family: 'Black And White Picture', sans-serif;
+        font-size: 50px;
+      }
+
+      th, td {
+        padding: 15px;
+      }
+    
+      th {
+        text-align: center;
+      }
+       td > a > img {
+           width: 70px;
+           display: block; 
+           margin-left: auto;
+           margin-right: auto;
+       }
+
+       td > a > img:hover {
+           border: 5px solid white;
+       }
+      
+    
+    .box5 {
+        position: fixed;
+        bottom: 0;
+        right: 5px;
+        margin: 0;
+        grid-column: 1 / span 4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;grid-column: 1 / span 4;
+        color: white;
+        text-shadow: 2px 2px red;
+        font-family: 'Black And White Picture', sans-serif;
+        height: auto;
+    }
+    
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .gridContainer {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        align-content: center;
+        margin: 0 auto;
+    }
+    
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: black;
+    }
+    
+
+    .box1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5px;
+        align-items: center;
+        grid-column: 1 / span 6;
+        text-align: center;
+        color: white;
+        height: auto;
+        font-size: 50px;
+        font-family: 'Black And White Picture', sans-serif;
+        letter-spacing: 5px;
+        text-shadow: 2px 2px red ;
+    }
+
+    header > div > a > img {
+        width: 350px;
+        height: auto;
+    }
+
+    
+    li {
+        color: white;
+        letter-spacing: 1px;text-shadow: 2px 2px red;
+    }
+
+    .sidenav {
+        height: 100%; 
+        width: 0; 
+        position: fixed; 
+        z-index: 1; 
+        top: 0; 
+        left: 0;
+        background-color: #111; 
+        overflow-x: hidden; 
+        padding-top: 60px;
+        transition: 0.5s; 
+      }
+      
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+      }
+    
+    .sidenav a:hover {
+        text-decoration: underline;
+        font-style: italic;
+      }
+    
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+    
+    .box2{    
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        height: auto;
+        padding: 1px;
+        position: absolute;
+        font-family: 'Black And White Picture', sans-serif;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        text-shadow: 2px 2px red;
+        letter-spacing: 3px;
+        font-size: 30px;
+    }
+     div.box2 > span:hover {
+         transition: 1s ease-out;
+         font-style: italic;
+         font-size: 30px;
+    
+     }
+    
+    .box3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border: 5px white ridge;
+        padding-left: 10px;
+        padding-right: 5px;
+        grid-column: 2 / span 4;
+        color: white;
+        height: auto;
+    }
+    
+    main > h1 {
+        font-family: 'Black And White Picture', sans-serif;
+        letter-spacing: 5px;
+        text-shadow: 2px 2px red;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    main > div > p {
+        text-align: center;
+        color: red;
+        text-shadow: 0 0 3px white;
+        font-family: 'Black And White Picture', sans-serif;
+        letter-spacing: 5px;
+        font-size: 50px;
+    }
+    
+    main > div > h1 {
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px red;
+        font-family: 'Black And White Picture', sans-serif;
+        letter-spacing: 5px;
+        font-size: 50px;
+    }
+
+    main > div > h3 {
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px red;
+        font-family: 'Black And White Picture', sans-serif;
+        letter-spacing: 5px;
+        font-size: 50px;
+    }
+
+    main > span > p {
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: red;
+        text-shadow: 0 0 3px white;
+        text-align: center;
+    }
+
+    main > span > a > h1 {
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px red;
+        font-family: 'Black And White Picture', sans-serif;
+        letter-spacing: 5px;
+        font-size: 40px;
+    }
+
+    main > span > a {
+        text-decoration: none;
+    }
+
+    main > span > a > h1:hover {
+        text-decoration: underline;
+    }
+
+    .box4 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            border: 5px white ridge;
+            padding-left: 10px;
+            padding-right: 5px;
+            grid-column: 2 / span 4;
+            color: white;
+            height: auto;
+    }
+    
+    table, th, td {
+        color: white;
+        text-shadow: 2px 2px red;
+        font-family: 'Black And White Picture', sans-serif;
+        font-size: 50px;
+      }
+
+      th, td {
+        padding: 15px;
+      }
+    
+      th {
+        text-align: center;
+      }
+       td > a > img {
+           width: 70px;
+           display: block; 
+           margin-left: auto;
+           margin-right: auto;
+       }
+
+       td > a > img:hover {
+           border: 5px solid white;
+       }
+      
+    
+    .box5 {
+        position: fixed;
+        bottom: 0;
+        right: 10px;
+        margin: 0;
+        grid-column: 1 / span 4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;grid-column: 1 / span 4;
+        color: white;
+        text-shadow: 2px 2px red;
+        font-family: 'Black And White Picture', sans-serif;
+        height: auto;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    .gridContainer {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        align-content: center;
+        margin: 0 auto;
+    }
+    
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        background-image: url(./background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+
+    .box1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5px;
+        align-items: center;
+        grid-column: 1 / span 6;
+        text-align: center;
+        color: white;
+        height: auto;
+        font-size: 50px;
+        font-family: 'Black And White Picture', sans-serif;
+        letter-spacing: 5px;
+        text-shadow: 2px 2px red ;
+    }
+
+    header > div > a > img {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 150px;
+        height: auto;
+    }
+
+    header > div >  p {
+        position: fixed;
+        top: 145px;
+        right: 0;
+        font-size: 12px;
+        width: 150px;
+        
+    }
+    
+    li {
+        color: white;
+        letter-spacing: 1px;text-shadow: 2px 2px red;
+    }
+
+    .sidenav {
+        height: 100%; 
+        width: 0; 
+        position: fixed; 
+        z-index: 1; 
+        top: 0; 
+        left: 0;
+        background-color: #111; 
+        overflow-x: hidden; 
+        padding-top: 60px;
+        transition: 0.5s; 
+      }
+      
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+      }
+    
+    .sidenav a:hover {
+        text-decoration: underline;
+        font-style: italic;
+      }
+    
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+    
+    .box2{    
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        height: auto;
+        padding: 1px;
+        position: absolute;
+        font-family: 'Black And White Picture', sans-serif;
+        font-weight: bolder;
+        letter-spacing: 1px;text-shadow: 2px 2px red;
+        letter-spacing: 3px;
+        font-size: 25px;
+    }
+     div.box2 > span:hover {
+         transition: 1s ease-out;
+         font-style: italic;
+         font-size: 30px;
+    
+     }
+    
+    .box3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border: 5px white ridge;
+        padding-left: 10px;
+        padding-right: 5px;
+        grid-column: 2 / span 4;
+        color: white;
+        height: auto;
+    }
+    
+    main > h1 {
+        font-family: 'Black And White Picture', sans-serif;
+        letter-spacing: 5px;
+        text-shadow: 2px 2px red;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    main > div > p {
+        text-align: center;
+        color: red;
+        text-shadow: 0 0 3px white;
+        font-family: 'Black And White Picture', sans-serif;
+        letter-spacing: 5px;
+        font-size: 50px;
+    }
+    
+    main > div > h1 {
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px red;
+        font-family: 'Black And White Picture', sans-serif;
+        letter-spacing: 5px;
+        font-size: 50px;
+    }
+
+    main > div > h3 {
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px red;
+        font-family: 'Black And White Picture', sans-serif;
+        letter-spacing: 5px;
+        font-size: 50px;
+    }
+
+    main > span > p {
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: red;
+        text-shadow: 0 0 3px white;
+        text-align: center;
+    }
+
+    main > span > a > h1 {
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px red;
+        font-family: 'Black And White Picture', sans-serif;
+        letter-spacing: 5px;
+        font-size: 50px;
+    }
+
+    main > span > a {
+        text-decoration: none;
+    }
+
+    main > span > a > h1:hover {
+        text-decoration: underline;
+    }
+
+    .box4 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            border: 5px white ridge;
+            padding-left: 10px;
+            padding-right: 5px;
+            grid-column: 2 / span 4;
+            color: white;
+            height: auto;
+    }
+    
+    table, th, td {
+        color: white;
+        text-shadow: 2px 2px red;
+        font-family: 'Black And White Picture', sans-serif;
+        font-size: 50px;
+      }
+
+      th, td {
+        padding: 15px;
+      }
+    
+      th {
+        text-align: center;
+      }
+       td > a > img {
+           width: 70px;
+           display: block; 
+           margin-left: auto;
+           margin-right: auto;
+       }
+
+       td > a > img:hover {
+           border: 5px solid white;
+       }
+      
+    
+    .box5 {
+        position: fixed;
+        bottom: 0;
+        right: 10px;
+        margin: 0;
+        grid-column: 1 / span 4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;grid-column: 1 / span 4;
+        color: white;
+        text-shadow: 2px 2px red;
+        font-family: 'Black And White Picture', sans-serif;
+        height: auto;
+    }
+    
